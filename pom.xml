@@ -237,6 +237,17 @@
     </repository>
   </repositories>
 
+ <distributionManagement>
+     
+       <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://35.200.162.199:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+
+  </distributionManagement>
+
+
   <pluginRepositories>
     <pluginRepository>
       <id>spring-snapshots</id>
@@ -255,5 +266,6 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+
 
 </project>
